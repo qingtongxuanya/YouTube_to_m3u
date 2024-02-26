@@ -1,33 +1,24 @@
-#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"
-
-#########################################################################
-#      ____            _           _   __  __                           #
-#     |  _ \ _ __ ___ (_) ___  ___| |_|  \/  | ___   ___  ___  ___      #
-#     | |_) | '__/ _ \| |/ _ \/ __| __| |\/| |/ _ \ / _ \/ __|/ _ \     #
-#     |  __/| | | (_) | |  __/ (__| |_| |  | | (_) | (_) \__ \  __/     #
-#     |_|   |_|  \___// |\___|\___|\__|_|  |_|\___/ \___/|___/\___|     #
-#                   |__/                                                #
-#                                  >> https://github.com/benmoose39     #
-#########################################################################
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 抖音热歌
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963910/ei/5mPcZczeNdu3sfIPgdiJuAQ/ip/20.172.46.67/id/uFoOxlPSTco.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9fwveSU2_01wXCIoyMl_gsnBJYai_kXIfUOKu0daybWU/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhANpdLkNDguCGprNRL8d2PSRZZ4ddX3rBktmJjswMBObXAiA0rHfmCLAS76j_OdageWYIbj5Ez8qR5cDkYEZrT5P7_w%3D%3D/file/index.m3u8
+抖音热歌1 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@chinesesong2023/live
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 抖音排行榜
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963911/ei/52PcZY7YGKjasfIP2J6c2AQ/ip/20.172.46.67/id/xF-A1fPE9WY.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/gcr/us/spc/UWF9f9OSs55jN32GIZzoFKnx3vSZF-QdPVLnes053E4A1wg/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhALPhMOazAL1CcC5WX4dI_gfWXiKIGHp1J3ZsZpd-vu_XAiEA0qzO44F5xFafyQFCES5X2kKVCL6Orbpf4Lpw0SsXiAs%3D/file/index.m3u8
+抖音热歌2 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@HotDouyinMusic/live
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 回忆音乐
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963911/ei/52PcZfH5OKzAsfIPq8iw0A4/ip/20.172.46.67/id/fTR3GdUfNHo.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f5USmrtUuSxo9LOvG6AXssttnVqG9GvKknYnzVgmrAs/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAP8GowivHnq_-K5B6oDWj_z9KUZxpvjPAkgpXXSVt3VQAiEAqFgrcrvThtoNA4effhT5aK9bf-BP0Vhs25x0m4qDtqM%3D/file/index.m3u8
+回忆音乐 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@Huiyiyinyue/live
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 华语音乐1
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963912/ei/6GPcZYr2Iv_dsfIP2_eg-Ag/ip/20.172.46.67/id/rDsfTOuo_Bk.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f_RB3eJT4e6tK9vaP39xdftPShgKI25ZQ9ncDOsJC7o/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgLqRCNgRybPTZ1IdYLW1fMMmnnVEO32CTJhua1fNAVcUCIDR4EaBjKTEmnG8EW_7XNWdTG6gNLqLSZhdPh5Z0DrQ3/file/index.m3u8
+华语音乐1 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@PopularMusic.3004/live
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 华语音乐2
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963913/ei/6WPcZcrcBqbBsfIPreWg0AI/ip/20.172.46.67/id/zIPJ-XxV6Ow.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f-hc_zHVeNNvxKutUfE53i9U5qkCE7J-rh3E_avs0oA/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhALEJ0rwcHo2aoQf2IXTdUBw9567JlLCfEMlBcTiTk_YoAiEAkS3x7F8P8NqwIbX6sYBTe4iulHQvlVRfbpO4-JNc2mc%3D/file/index.m3u8
+华语音乐2 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@kkbox-6789/live
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 经典老歌
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963913/ei/6WPcZbyFLu6wsfIPr7uvoAI/ip/20.172.46.67/id/8d0Kc9oYhkE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f1peVSw3Q3qN8WESRZp3ZG-XKIdAbl-8fRlhtze2mb0/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgeU_j8hyR7YHHow10ftbt9bDeGoCWaKkZXD4ZnScAMW4CIAlvtyorQ-qasD3WPJeV4MGr01m27IFx0MhignrUoiCa/file/index.m3u8
+经典老歌 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@ChineseOldSongs60/live
 
-#EXTINF:-1 group-title="音乐" tvg-logo="https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj" tvg-id="", 古典音乐
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1708963914/ei/6mPcZeWCEonWsfIPz9iA4AQ/ip/20.172.46.67/id/dQJVvZjiSvA.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f_11zQVa4n9Edz634l0AZDeNiyguyxby277EkdEOrLI/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/beids/24350257/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgJeA-iriLZWECfVECsj1U1u8DQEzApBfDnqhszdxYWE8CIQDqckp2QHrs7Z8Yl4XaUT2wgZVXcO8sUToVar4sFfSu0w%3D%3D/file/index.m3u8
+古典音乐 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@-chinesemusic1316/live
