@@ -2,14 +2,8 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 
-抖音热歌1 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+抖音热歌 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@chinesesong2023/live
-
-抖音热歌2 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/@DouyinMusicTrend/live
-
-回忆音乐 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/@Huiyiyinyue/live
 
 华语音乐1 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@PopularMusic.3004/live
