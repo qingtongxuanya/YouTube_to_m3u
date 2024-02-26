@@ -2,12 +2,26 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 
-抖音歌曲2024 | 音乐 | https://yt3.googleusercontent.com/e_FrejLZTqgZpdteTHP-8GKML06BbZHdSNp56791cfvKGkNDn_V5_zwSwTKt9xZGnO9j2TUqlw=s176-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/@Douyinsong2024/live
+抖音热歌 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@chinesesong2023/live
 
-cctv6电影 | 电影 | https://yt3.googleusercontent.com/e_FrejLZTqgZpdteTHP-8GKML06BbZHdSNp56791cfvKGkNDn_V5_zwSwTKt9xZGnO9j2TUqlw=s176-c-k-c0x00ffffff-no-rj |
+测试 | 音乐 | https://yt3.googleusercontent.com/LHRrmufqbidJAH-wwCrwmx-3zlb_OClusQsDdp5oS6v8KoB-qnlA_mESqZ8eIOfPEz1NPDS6ATQ=s176-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@chinesesong2023/videos
+
+cctv6电影 | 电影 |  |
 https://www.youtube.com/@CCTV6-1905/live
 
-回忆音乐 | 音乐 | https://yt3.googleusercontent.com/e_FrejLZTqgZpdteTHP-8GKML06BbZHdSNp56791cfvKGkNDn_V5_zwSwTKt9xZGnO9j2TUqlw=s176-c-k-c0x00ffffff-no-rj |
+回忆音乐 | 音乐 |  |
 https://www.youtube.com/@Huiyiyinyue/live
 
+古典音乐 | 音乐 |  |
+https://www.youtube.com/@-chinesemusic1316/live
+
+华语音乐1 | 音乐 |  |
+https://www.youtube.com/@PopularMusic.3004/live
+
+华语音乐2 | 音乐 |  |
+https://www.youtube.com/@kkbox-6789/live
+
+经典老歌 | 音乐 |  |
+https://www.youtube.com/@ChineseOldSongs60/live
