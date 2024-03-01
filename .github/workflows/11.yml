@@ -18,7 +18,7 @@ jobs:
         sudo cat >./movie1.m3u <<EOL
         #EXTM3U
         #EXTINF:-1 tvg-name="movie1", 电影1
-        $(yt-dlp -g https://www.youtube.com/watch?v=lWHJDgNlmVo)
+        $(yt-dlp -g -fb --no-warnings https://www.youtube.com/watch?v=lWHJDgNlmVo)
         EOL
     - name: Get ftvnews.m3u8
       run: |
