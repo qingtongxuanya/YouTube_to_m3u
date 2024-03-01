@@ -17,7 +17,7 @@ jobs:
         touch ./movie1.m3u
         sudo cat >./movie1.m3u <<EOL
         #EXTM3U
-        #EXTINF:-1 tvg-id="" tvg-name="movie1" 电影1
+        #EXTINF:-1 tvg-name="movie1", 电影1
         $(yt-dlp -g https://www.youtube.com/watch?v=xL0ch83RAK8)
         EOL
     - name: Get ftvnews.m3u8
