@@ -12,10 +12,10 @@ jobs:
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
 
-    - name: Get movie1.m3u8
+    - name: Get movie1.m3u
       run: |
-        touch ./movie1.m3u8
-        sudo cat >./movie1.m3u8 <<EOL
+        touch ./movie1.m3u
+        sudo cat >./movie1.m3u <<EOL
         #EXTM3U
         #EXTINF:-1 tvg-id="" tvg-name="movie1" 电影1
         $(yt-dlp -g https://www.youtube.com/watch?v=xL0ch83RAK8)
