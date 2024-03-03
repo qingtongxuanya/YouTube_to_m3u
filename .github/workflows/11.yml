@@ -11,27 +11,41 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
+        sudo apt install jq
 
     - name: Get movie1.m3u
       run: |
-      
+        # 手动创建方法
+        echo "PLWyKG_HBHHZkVpIyGVM2qWunWdkF4mWpf" > playlist.txt
+        # 从playlist.txt文件中读取播放列表ID
+        PLAYLIST_ID=$(cat playlist.txt)
 
-        # 替换 "PLAYLIST_ID" 为实际的YouTube播放列表ID
-        PLAYLIST_ID="PLWyKG_HBHHZkVpIyGVM2qWunWdkF4mWpf"
+        # 初始化临时文件存储视频信息
+        tempfile=$(mktemp)
 
-        # 获取前两个视频的下载链接
-        DOWNLOAD_LINKS=$(yt-dlp --flat-playlist --get-url --playlist-start 1 --playlist-end 2 --yes-playlist "https://www.youtube.com/playlist?list=$PLAYLIST_ID")
+        # 获取前两个视频的ID和元数据
+        yt-dlp --flat-playlist --dump-single-json "$tempfile" --playlist-start 1 --playlist-end 2 --yes-playlist "https://www.youtube.com/playlist?list=$PLAYLIST_ID"
 
-        # 将下载链接写入到movie1.m3u文件
-        echo "#EXTM3U" > movie1.m3u
-        for LINK in $DOWNLOAD_LINKS; do
-          echo $LINK >> movie1.m3u
-        done
+        # 从JSON文件中提取标题和下载链接
+        while IFS= read -r line < "$tempfile"; do
+        # 解析JSON，提取标题和下载链接
+          VIDEO_INFO=$(jq -r '.title, .webpage_url' <<< "$line")
+          TITLE=$(echo "$VIDEO_INFO" | head -n 1)
+          DOWNLOAD_LINK=$(echo "$VIDEO_INFO" | tail -n 1)
 
-        echo "已完成，已将前两个视频的下载链接写入当前目录下的movie1.m3u文件。"
+        # 写入M3U文件
+          echo "#EXTINF:-1,$TITLE" >> movie1.m3u
+          echo "$DOWNLOAD_LINK" >> movie1.m3u
+        done < "$tempfile"
+
+        # 清理临时文件
+        rm "$tempfile"
+
+        echo "已完成，已将前两个视频的标题和下载链接写入当前目录下的movie1.m3u文件。"
 
 
-       
+.
+
 
 
     - name: Get ftvnews.m3u8
