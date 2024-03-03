@@ -14,12 +14,8 @@ jobs:
 
     - name: Get movie1.m3u
       run: |
-        touch ./movie1.m3u
-        sudo cat >./movie1.m3u <<EOL
-        #EXTM3U
-        #EXTINF:-1 tvg-name="movie1", 电影1
-        $(yt-dlp -g -fb --no-warnings https://www.youtube.com/watch?v=lWHJDgNlmVo)
-        EOL
+        yt-dlp --no-warnings --flat-playlist --get-url --playlist-start 1 --playlist-end 2 --output "%(playlist_index)s - %(title)s.%(ext)s" -f best --yes-playlist "https://www.youtube.com/playlist?list=PLAYLIST_ID" > playlist.m3u
+
     - name: Get ftvnews.m3u8
       run: |
         touch ./ftvnews.m3u8
