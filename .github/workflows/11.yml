@@ -14,7 +14,7 @@ jobs:
 
     - name: Get movie1.m3u
       run: |
-        yt-dlp --no-warnings --flat-playlist --get-url --playlist-start 1 --playlist-end 2 --output "%(playlist_index)s - %(title)s.%(ext)s" -f best --yes-playlist "https://www.youtube.com/playlist?list=PLAYLIST_ID" > playlist.m3u
+        yt-dlp --no-warnings --flat-playlist --get-url --playlist-start 1 --playlist-end 2 --output "%(playlist_index)s - %(title)s.%(ext)s" -f best --yes-playlist "https://www.youtube.com/playlist?list=PLWyKG_HBHHZkVpIyGVM2qWunWdkF4mWpf" > playlist.m3u
 
     - name: Get ftvnews.m3u8
       run: |
