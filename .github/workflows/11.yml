@@ -43,11 +43,6 @@ jobs:
 
         echo "已完成，已将前两个视频的标题和下载链接写入当前目录下的movie1.m3u文件。"
 
-
-.
-
-
-
     - name: Get ftvnews.m3u8
       run: |
         touch ./ftvnews.m3u8
