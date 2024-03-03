@@ -14,19 +14,24 @@ jobs:
 
     - name: Get movie1.m3u
       run: |
-        
+      
 
-        PLAYLIST_URL="https://www.youtube.com/playlist?list=PLWyKG_HBHHZkVpIyGVM2qWunWdkF4mWpf"
-        VIDEO_IDS=$(yt-dlp --flat-playlist --get-id --playlist-start 1 --playlist-end 2 --yes-playlist "$PLAYLIST_URL")
+        # 替换 "PLAYLIST_ID" 为实际的YouTube播放列表ID
+        PLAYLIST_ID="PLWyKG_HBHHZkVpIyGVM2qWunWdkF4mWpf"
 
-        # 创建一个新的M3U文件，并将视频ID转换为观看链接
+        # 获取前两个视频的下载链接
+        DOWNLOAD_LINKS=$(yt-dlp --flat-playlist --get-url --playlist-start 1 --playlist-end 2 --yes-playlist "https://www.youtube.com/playlist?list=$PLAYLIST_ID")
+
+        # 将下载链接写入到movie1.m3u文件
         echo "#EXTM3U" > movie1.m3u
-        for ID in $VIDEO_IDS; do
-          echo "#EXTINF:0,Video" >> movie1.m3u
-          echo "https://www.youtube.com/watch?v=$ID" >> movie1.m3u
+        for LINK in $DOWNLOAD_LINKS; do
+          echo $LINK >> movie1.m3u
         done
 
-        echo "已完成，已生成movie1.m3u文件，包含播放链接。"
+        echo "已完成，已将前两个视频的下载链接写入当前目录下的movie1.m3u文件。"
+
+
+       
 
 
     - name: Get ftvnews.m3u8
